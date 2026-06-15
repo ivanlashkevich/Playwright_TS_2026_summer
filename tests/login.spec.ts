@@ -7,10 +7,10 @@ import { test, expect } from '../fixtures/pom.fixture';
 
 test.describe('Login flow', () => {
 
-    test('should login with valid credentials', async ({ pm, valiadUser }) => {
+    test('should login with valid credentials', async ({ pm, validUser }) => {
         await pm.loginPage.openLoginPage();
         // Enter valid credentials and submit
-        await pm.loginPage.userLogin(valiadUser.username, valiadUser.password);
+        await pm.loginPage.userLogin(validUser.username, validUser.password);
         // Assert successful login on secure page
         await pm.securePage.assertSuccess();
     });
