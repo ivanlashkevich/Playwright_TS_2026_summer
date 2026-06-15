@@ -1,5 +1,5 @@
 {
-  "name": "playwright-pom",
+  "name": "Playwright_TS_2026_summer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.3",
+    "dotenv": "^17.4.2",
     "typescript": "^6.0.3"
   }
 }

@@ -4,11 +4,11 @@
 
 import { test as base } from '@playwright/test';
 import PomManager from '../pages/ManagePage';
-import user from '../test-data/validUser.json';
+import { validUser } from '../test-data/validUser';
 
 type MyFixtures = {
     pm: PomManager;
-    valiadUser: { username: string; password: string };
+    validUser: { username: string; password: string };
 }
 
 export const test = base.extend<MyFixtures>({
@@ -18,7 +18,7 @@ export const test = base.extend<MyFixtures>({
         await use(new PomManager(page));
     },
     // plain value fixture (available in all tests)
-    valiadUser: user,
+    validUser,
 });
 
 export { expect } from '@playwright/test';
