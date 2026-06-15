@@ -2,6 +2,9 @@
 ## Git Hub Actions Report Here:
 ![Playwright Tests](https://github.com/ivanlashkevich/Playwright_TS_2026_summer/actions/workflows/playwright.yml/badge.svg?branch=main)
 
+> **Need the quick CI setup steps?**  
+> See **[CI_GitHub_Actions_Checklist.md](./github_actions_checklist.md)** ✅
+
 ---
 
 ## 🚀 Quick start
